@@ -11,7 +11,7 @@ from vmdpy import VMD
 import sys, os, os.path
 from sklearn.decomposition import PCA
 
-N=50000
+N=100000
 input_filename = 'input.wav'
 samrate,data = wavfile.read(str('./'+input_filename))
 df=pd.DataFrame(data)
